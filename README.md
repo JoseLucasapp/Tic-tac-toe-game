@@ -11,7 +11,6 @@ Famous game "Tic Tac Toe", developed with javascript, HTML and CSS.
 </table>
 <p>Example</p>
 <img src="tictactoe1.png">
-![Screenshot](tictactoe1.png)
-
+<br>
 <h3>Author</h3>
 <a href="https://www.instagram.com/jlucasgf/?hl=pt-br" style="text-decoration: none;">José Lucas Gonçalves Freitas</a>
