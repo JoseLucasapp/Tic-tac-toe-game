@@ -10,6 +10,7 @@ Famous game "Tic Tac Toe", developed with javascript, HTML and CSS.
   </tr>
 </table>
 <p>Example</p>
+<img src="tictactoe1.png">
 ![Screenshot](tictactoe1.png)
 
 <h3>Author</h3>
