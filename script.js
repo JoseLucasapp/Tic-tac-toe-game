@@ -4,6 +4,22 @@ let px; let po;
 function start(){
 	choice = Math.round(Math.random()* 1)
 	let img = document.getElementById('img');
+	if(px == 5 || po == 5){
+		if(px == 5){
+			alert('player X ganhou por ' + px + '-' + po);
+			px = 0;
+			po = 0;
+			document.getElementById('px').innerHTML = px;
+			document.getElementById('po').innerHTML = po;
+		}
+		if(po == 5){
+			alert('player O ganhou por '+ po + '-' + px);
+			po = 0;
+			px = 0;
+			document.getElementById('po').innerHTML = po;
+			document.getElementById('px').innerHTML = px;
+		}
+	}
 
 	if (choice == 0){
 		img.src='img/x.png';
