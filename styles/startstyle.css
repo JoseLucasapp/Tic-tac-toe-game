@@ -11,9 +11,16 @@
 }
 .toppage{
     top: 0;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    background-color: green;
 }
 .downpage{
-    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    text-align: center;
 }
 .main{
     width: 70%;
@@ -21,4 +28,31 @@
     margin-top: 6.5%;
     margin-left: 15%;
     background-color: violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgs{
+    width: 25%;
+    height: 100px;
+    background-color: blue;
+    margin-left: 37.5%;
+    margin-top: 5%;
+}
+.quadro{
+	width: 100px;
+    height: 100px;
+}
+.quadroImg{
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    border-width: 0px;
+    background-color: transparent;
+    margin-left: 25%;
+}
+#img1{
+    background-image: url('../img/x.png');
+}
+#img2{
+    background-image: url('../img/o.png');
 }
