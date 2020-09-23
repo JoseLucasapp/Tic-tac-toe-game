@@ -1,0 +1,10 @@
+.startbutton{
+    width: 10%;
+    height: 50px;
+    background: linear-gradient(to right, red, blue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.startbutton:hover {
+    background: linear-gradient(to right, blue, red);
+}
