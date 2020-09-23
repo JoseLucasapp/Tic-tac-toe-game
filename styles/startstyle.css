@@ -1,3 +1,4 @@
+*{margin: 0; padding: 0;}
 .startbutton{
     width: 10%;
     height: 50px;
@@ -7,4 +8,17 @@
 }
 .startbutton:hover {
     background: linear-gradient(to right, blue, red);
+}
+.toppage{
+    top: 0;
+}
+.downpage{
+    bottom: 0;
+}
+.main{
+    width: 70%;
+    height: 70%;
+    margin-top: 6.5%;
+    margin-left: 15%;
+    background-color: violet;
 }
