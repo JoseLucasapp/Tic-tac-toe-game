@@ -27,6 +27,7 @@ function start(){
 		document.getElementById('table').style.borderColor = 'red'
 		document.getElementById('txt').style.color = 'red'
 		document.getElementById('txt2').style.color = 'red'
+		document.getElementById('arrowback').style.fill = 'red'
 	}
 	else{
 		img.src='../img/o.png';
@@ -34,6 +35,7 @@ function start(){
 		document.getElementById('table').style.borderColor = 'blue'
 		document.getElementById('txt').style.color = 'blue'
 		document.getElementById('txt2').style.color = 'blue'
+		document.getElementById('arrowback').style.fill = 'blue'
 	}
 	q1.disabled = false;q2.disabled = false;q3.disabled = false;q4.disabled = false;q5.disabled = false;q6.disabled = false;q7.disabled = false;q8.disabled = false;q9.disabled = false;
 	document.getElementById('q1').style.backgroundImage = "url('../img/t.png')";
@@ -66,7 +68,7 @@ function update(){
 		document.getElementById('table').style.borderColor = 'blue'
 		document.getElementById('txt').style.color = 'blue'
 		document.getElementById('txt2').style.color = 'blue'
-
+		document.getElementById('arrowback').style.fill = 'blue'
 	}
 	else{
 		choice = 0;
@@ -75,6 +77,7 @@ function update(){
 		document.getElementById('table').style.borderColor = 'red'
 		document.getElementById('txt').style.color = 'red'
 		document.getElementById('txt2').style.color = 'red'
+		document.getElementById('arrowback').style.fill = 'red'
 	}
 }
 function q_1(){
