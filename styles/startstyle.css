@@ -3,6 +3,7 @@ body{
     background: url('../img/space.gif');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .startbutton{
     width: 10%;
@@ -13,6 +14,8 @@ body{
 }
 .startbutton:hover {
     background: linear-gradient(to right, blue, red);
+    width: 40%;
+    transition: width 0.5s linear 0.2s;
 }
 .toppage{
     top: 0;
