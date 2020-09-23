@@ -56,3 +56,8 @@
 #img2{
     background-image: url('../img/o.png');
 }
+@media(max-width: 1000px){
+    .downpage{
+        background-color: black;
+    }
+}
