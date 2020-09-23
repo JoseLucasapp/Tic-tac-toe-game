@@ -22,29 +22,29 @@ function start(){
 	}
 
 	if (choice == 0){
-		img.src='img/x.png';
-		geral = "url('img/x.png')";
+		img.src='../img/x.png';
+		geral = "url('../img/x.png')";
 		document.getElementById('table').style.borderColor = 'red'
 		document.getElementById('txt').style.color = 'red'
 		document.getElementById('txt2').style.color = 'red'
 	}
 	else{
-		img.src='img/o.png';
-		geral = "url('img/o.png')";
+		img.src='../img/o.png';
+		geral = "url('../img/o.png')";
 		document.getElementById('table').style.borderColor = 'blue'
 		document.getElementById('txt').style.color = 'blue'
 		document.getElementById('txt2').style.color = 'blue'
 	}
 	q1.disabled = false;q2.disabled = false;q3.disabled = false;q4.disabled = false;q5.disabled = false;q6.disabled = false;q7.disabled = false;q8.disabled = false;q9.disabled = false;
-	document.getElementById('q1').style.backgroundImage = "url('img/t.png')";
-	document.getElementById('q2').style.backgroundImage = "url('img/t.png')";
-	document.getElementById('q3').style.backgroundImage = "url('img/t.png')";
-	document.getElementById('q4').style.backgroundImage = "url('img/t.png')";
-	document.getElementById('q5').style.backgroundImage = "url('img/t.png')";
-	document.getElementById('q6').style.backgroundImage = "url('img/t.png')";
-	document.getElementById('q7').style.backgroundImage = "url('img/t.png')";
-	document.getElementById('q8').style.backgroundImage = "url('img/t.png')";
-	document.getElementById('q9').style.backgroundImage = "url('img/t.png')";
+	document.getElementById('q1').style.backgroundImage = "url('../img/t.png')";
+	document.getElementById('q2').style.backgroundImage = "url('../img/t.png')";
+	document.getElementById('q3').style.backgroundImage = "url('../img/t.png')";
+	document.getElementById('q4').style.backgroundImage = "url('../img/t.png')";
+	document.getElementById('q5').style.backgroundImage = "url('../img/t.png')";
+	document.getElementById('q6').style.backgroundImage = "url('../img/t.png')";
+	document.getElementById('q7').style.backgroundImage = "url('../img/t.png')";
+	document.getElementById('q8').style.backgroundImage = "url('../img/t.png')";
+	document.getElementById('q9').style.backgroundImage = "url('../img/t.png')";
 	document.getElementById('q1').style.backgroundColor = 'white';
 	document.getElementById('q2').style.backgroundColor = 'white';
 	document.getElementById('q3').style.backgroundColor = 'white';
@@ -61,8 +61,8 @@ function update(){
 	let img = document.getElementById('img');
 	if(up == 0){
 		choice = 1;
-		img.src = 'img/o.png';
-		geral = "url('img/o.png')";
+		img.src = '../img/o.png';
+		geral = "url('../img/o.png')";
 		document.getElementById('table').style.borderColor = 'blue'
 		document.getElementById('txt').style.color = 'blue'
 		document.getElementById('txt2').style.color = 'blue'
@@ -70,8 +70,8 @@ function update(){
 	}
 	else{
 		choice = 0;
-		img.src = 'img/x.png';
-		geral = "url('img/x.png')";
+		img.src = '../img/x.png';
+		geral = "url('../img/x.png')";
 		document.getElementById('table').style.borderColor = 'red'
 		document.getElementById('txt').style.color = 'red'
 		document.getElementById('txt2').style.color = 'red'
@@ -80,10 +80,10 @@ function update(){
 function q_1(){
 	document.getElementById('q1').style.backgroundImage = geral
 	q1.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w1 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w1 = 0;
 	}
 	update();
@@ -139,10 +139,10 @@ function q_1(){
 function q_2(){
 	document.getElementById('q2').style.backgroundImage = geral
 	q2.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w2 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w2 = 0;
 	}
 	update();
@@ -182,10 +182,10 @@ function q_2(){
 function q_3(){
 	document.getElementById('q3').style.backgroundImage = geral
 	q3.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w3 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w3 = 0;
 	}
 	update();
@@ -241,10 +241,10 @@ function q_3(){
 function q_4(){
 	document.getElementById('q4').style.backgroundImage = geral
 	q4.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w4 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w4 = 0;
 	}
 	update();
@@ -284,10 +284,10 @@ function q_4(){
 function q_5(){
 	document.getElementById('q5').style.backgroundImage = geral
 	q5.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w5 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w5 = 0;
 	}
 	update();
@@ -359,10 +359,10 @@ function q_5(){
 function q_6(){
 	document.getElementById('q6').style.backgroundImage = geral
 	q6.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w6 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w6 = 0;
 	}
 	update();
@@ -402,10 +402,10 @@ function q_6(){
 function q_7(){
 	document.getElementById('q7').style.backgroundImage = geral
 	q7.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w7 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w7 = 0;
 	}
 	update();
@@ -461,10 +461,10 @@ function q_7(){
 function q_8(){
 	document.getElementById('q8').style.backgroundImage = geral
 	q8.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w8 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w8 = 0;
 	}
 	update();
@@ -504,10 +504,10 @@ function q_8(){
 function q_9(){
 	document.getElementById('q9').style.backgroundImage = geral
 	q9.disabled = true;
-	if (geral == "url('img/x.png')") {
+	if (geral == "url('../img/x.png')") {
 		w9 = 1;
 	}
-	if (geral == "url('img/o.png')") {
+	if (geral == "url('../img/o.png')") {
 		w9 = 0;
 	}
 	update();
