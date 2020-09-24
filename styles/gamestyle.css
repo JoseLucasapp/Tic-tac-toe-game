@@ -42,6 +42,9 @@
 	height: 40px;
 	margin-left: 44.5%;
 	margin-top: 10px;
+    background: linear-gradient(to right, red, blue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 .tablemain{
 	border: 1px;
