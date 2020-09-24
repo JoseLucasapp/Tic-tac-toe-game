@@ -1,3 +1,9 @@
+body{
+    background: url('../img/space.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
 .img{
 	width: 25px;
 	height: 25px;
@@ -23,6 +29,7 @@
 	height: 150px;
 	position: absolute;
 	margin-top: -250px;
+	color: red;
 }
 .pointso{
 	width: 500px;
@@ -30,6 +37,7 @@
 	position: absolute;
 	margin-top: -250px;
 	margin-left: 850px;
+	color: blue;
 }
 .pointstxt{
 	font-weight: bold;

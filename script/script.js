@@ -1,6 +1,6 @@
 let choice;
 let w1;let w2;let w3;let w4;let w5;let w6;let w7;let w8;let w9;
-let px; let po;
+let px = 0; let po = 0;
 function start(){
 	choice = Math.round(Math.random()* 1)
 	let img = document.getElementById('img');
