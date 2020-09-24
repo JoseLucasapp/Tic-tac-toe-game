@@ -17,6 +17,18 @@ body{
     width: 40%;
     transition: width 0.5s linear 0.2s;
 }
+.options{
+    width: 10%;
+    height: 50px;
+    background: linear-gradient(to right, red, blue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.options:hover {
+    background: linear-gradient(to right, blue, red);
+    width: 40%;
+    transition: width 0.5s linear 0.2s;
+}
 .toppage{
     top: 0;
     text-align: center;
@@ -60,6 +72,23 @@ body{
 }
 #img2{
     background-image: url('../img/o.png');
+}
+.optionspage{
+    position: fixed;
+    width: 50%;
+    height: 60%;
+    margin-left: 25%;
+    opacity: 1;
+    z-index: -1;
+    background-color: yellowgreen;
+}
+.back{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+    margin-left: 2%;
+    fill: purple;
+    margin-top: 5px;
 }
 @media(max-width: 1000px){
     .toppage{
