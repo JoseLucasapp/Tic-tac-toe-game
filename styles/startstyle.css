@@ -78,8 +78,8 @@ body{
     width: 50%;
     height: 60%;
     margin-left: 25%;
-    opacity: 0;
-    z-index: -1;
+    opacity: 1;
+    z-index: 1;
     background-color: yellowgreen;
 }
 .back{
@@ -89,6 +89,21 @@ body{
     margin-left: 2%;
     fill: purple;
     margin-top: 5px;
+}
+.content{
+    background-color: red;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 9%;
+    text-align: center;
+}
+.optButtons{
+    background-color: salmon;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 @media(max-width: 1000px){
     .toppage{
