@@ -138,4 +138,7 @@ body{
         z-index: -1;
         background-color: yellowgreen;
     }
+    body{
+        background-position-y: top;
+    }
 }

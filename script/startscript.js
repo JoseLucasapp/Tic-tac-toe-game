@@ -8,3 +8,6 @@ optionsPageOff = () => {
     optionspage.style.zIndex = -1;
     optionspage.style.opacity = 0;
 }
+changeBackground = () =>{
+    backgrounds = ['../img/space.gif','../img/volcano.gif','../img/wather.gif']
+}
