@@ -79,8 +79,8 @@ body{
     height: 60%;
     margin-left: 25%;
     margin-top: 5%;
-    opacity: 1;
-    z-index: 1;
+    opacity: 0;
+    z-index: -1;
     background-color: yellowgreen;
 }
 .back{
@@ -92,7 +92,6 @@ body{
     margin-top: 5px;
 }
 .content{
-    background-color: red;
     width: 80%;
     height: 70%;
     margin-left: 10%;
@@ -100,7 +99,6 @@ body{
     text-align: center;
 }
 .optButtons{
-    background-color: salmon;
     width: 80%;
     height: 30%;
     margin-left: 10%;
