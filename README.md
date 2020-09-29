@@ -1,6 +1,8 @@
 <h1>Tic Tac Toe</h1>
 Famous game "Tic Tac Toe", developed with javascript, HTML and CSS.
 
+<p><b>Responsive</b></p>
+
 <h2>Used Tools</h2>
 <table>
   <tr>
