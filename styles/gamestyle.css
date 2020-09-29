@@ -80,4 +80,7 @@ body{
 	.again{
 		margin-left: 42%;
 	}
+	body{
+        background-position-y: top;
+    }
 }
