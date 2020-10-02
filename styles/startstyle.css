@@ -140,6 +140,11 @@ body{
         height: 60px;
         font-size: 50px;
     }
+    .options{
+        width: 50%;
+        height: 60px;
+        font-size: 50px;
+    }
     .optionspage{
         position: fixed;
         width: 70%;
