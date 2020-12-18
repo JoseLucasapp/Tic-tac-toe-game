@@ -1,4 +1,4 @@
 const app = require('./config/server');
-let port = process.env.port || 3000;
+const {PORT = 3000} = process.env;
 
-app.listen(port);
+app.listen(PORT);
