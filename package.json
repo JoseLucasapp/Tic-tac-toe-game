@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/JoseLucasapp/Tic-tac-toe-game/issues"
   },
-  "homepage": "https://github.com/JoseLucasapp/Tic-tac-toe-game#readme"
+  "homepage": "https://github.com/JoseLucasapp/Tic-tac-toe-game#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
 }
