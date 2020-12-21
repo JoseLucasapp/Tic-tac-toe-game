@@ -1,7 +1,19 @@
 <h1>Tic Tac Toe</h1>
-Famous game "Tic Tac Toe", developed with javascript, HTML and CSS.
+Famous game "Tic Tac Toe", developed with javascript, HTML and CSS.<b>Responsive</b>
 
-<p><b>Responsive</b></p>
+<p>
+  
+  <h3>How to play</h3>
+  
+  ```shell
+  cd 'your favorite repository'
+  git clone https://github.com/JoseLucasapp/CRUD
+  cd crud
+  nodemon index.js
+  ```
+  
+</p>
+
 
 <h2>Used Tools</h2>
 <table>
