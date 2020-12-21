@@ -8,9 +8,9 @@
   
   ```shell
   cd 'your favorite repository'
-  git clone https://github.com/JoseLucasapp/CRUD
-  cd crud
-  nodemon index.js
+  git clone https://github.com/JoseLucasapp/Tic-tac-toe-game
+  cd Tic-tac-toe-game
+  nodemon app or node app.js
   ```
 </p>
 
