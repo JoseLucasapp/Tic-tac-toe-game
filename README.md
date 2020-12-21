@@ -1,8 +1,9 @@
-<h1>Tic Tac Toe</h1>
-Famous game "Tic Tac Toe", developed with javascript, HTML and CSS.<b>Responsive</b>
-
+<h1 align='center'>Tic Tac Toe</h1>
 <p>
-  
+  <h3>About</h3>
+  <p>This is my representation of the famous tic tac toe game, built with javascript, html and css. <b>Responsive</b></p>
+</p>
+<p>
   <h3>How to play</h3>
   
   ```shell
@@ -11,20 +12,25 @@ Famous game "Tic Tac Toe", developed with javascript, HTML and CSS.<b>Responsive
   cd crud
   nodemon index.js
   ```
-  
 </p>
 
+<p>
+  <h3>Used Tools</h3>
+  <table>
+    <tr>
+      <td>Express</td>
+      <td>EJS</td>
+      <td>Consign</td>
+    </tr>
+  </table>
+</p>
 
-<h2>Used Tools</h2>
-<table>
-  <tr>
-    <td>Html</td>
-    <td>CSS</td>
-    <td>Javascript</td>
-  </tr>
-</table>
-<p>Example</p>
-<img src="tictactoe1.png">
-<br>
-<h3>Author</h3>
-<a href="https://www.instagram.com/jlucasgf/?hl=pt-br" style="text-decoration: none;">José Lucas Gonçalves Freitas</a>
+<p>
+  <h3>Example</h3>
+  <img src="tictactoe1.png">
+</p>
+
+<p>
+  <h3>Author</h3>
+  <a href="https://www.instagram.com/jlucasgf/?hl=pt-br" style="text-decoration: none;">José Lucas Gonçalves Freitas</a>
+</p>
