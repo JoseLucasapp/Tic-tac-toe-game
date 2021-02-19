@@ -2,12 +2,12 @@
     <head>
         <title>Tic Tac Toe</title>
         <script type="text/javascript" src="/script/startscript.js"></script>
-        <link rel="stylesheet" type="text/css" href="/styles/startstyle.css">
-        <link rel="stylesheet" type="text/css" href="/styles/startstyleMedia.css">
+        <link rel="stylesheet" type="text/css" href="/styles/startstyle/startstyle.css">
+        <link rel="stylesheet" type="text/css" href="/styles/startstyle/startstyleMedia.css">
     </head>
     <body>
         <div class="optionspage" id="optionspage">
-            <a onclick="optionsPageOff();" style="text-decoration: none;">
+            <a onclick="optionsPageOff();">
                 <svg id="arrowback" width="1em" height="1em" viewBox="0 0 16 16" class="back" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.5 8.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z"/>
                 </svg>
@@ -15,40 +15,33 @@
             <div class="content">
                 <h1>More</h1>
                 <br><br>
-                <h2>developed by <a href="https://github.com/JoseLucasapp">José Lucas</a></h2>
+                <h2>developed by José Lucas</h2>
                 <br><br>
                 <h2>About Me</h2>
                 <br>
                 <p>Hello, I'am Lucas a javascript developer from Brazil <br>
-                for more informations about me, follow me on <a href="https://github.com/JoseLucasapp">GITHUB</a></p>
+                for more informations about me, follow me on <a href="https://github.com/JoseLucasapp"><u>GITHUB</u></a></p>
                 <br>
                 <br>
                 <p>Version 1.5.0</p>
             </div>
         </div>
         <div class="main">
-            <div class="toppage">
-                <h1>Tic Tac Toe</h1>
-                <div class="imgs">
-                    <table>
-                        <tr>
-                            <th class="quadro">
-                                <button id="img1" class="quadroimg"></button>
-                            </th>
-                            <th class="quadro">
-                                <button id="img2" class="quadroimg"></button>
-                            </th>
-                        </tr>
-                    </table>
-                </div>
+            <h1>Tic Tac Toe</h1>
+            <div class="initial">
+                <h1><span style="color: red;">X</span><a> vs</a><span style="color: blue;">O</span></h1>
             </div>
-            <div class="downpage">
-                <a style="text-decoration: none;" href="/game">
-                    <button class="startbutton">Start</button>
-                </a><br><br>
-                <a style="text-decoration: none;">
-                    <button class="options" onclick="optionsPageOn();">More</button>
-                </a>
+            <div class="buttons">
+                <div>
+                    <a href="/game">
+                        <button class="allbtn">Start</button>
+                    </a>
+                </div>
+                <div>
+                    <a>
+                        <button class="allbtn" onclick="optionsPageOn();">More</button>
+                    </a>
+                </div>
             </div>
         </div>
     </body>

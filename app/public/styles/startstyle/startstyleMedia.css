@@ -1,26 +1,5 @@
 @media(max-width: 1000px){
-    .toppage{
-        font-size: 50px;
-    }
-    .imgs{
-        width: 50%;
-        margin-left: 25%;
-        height: 200px;
-        margin-top: 100px;
-    }
-    .quadro{
-        width: 200px;
-        height: 200px;
-    }
-    .quadroImg{
-        margin-left: 8%;
-    }
-    .startbutton{
-        width: 50%;
-        height: 60px;
-        font-size: 50px;
-    }
-    .options{
+    .allbtn{
         width: 50%;
         height: 60px;
         font-size: 50px;
