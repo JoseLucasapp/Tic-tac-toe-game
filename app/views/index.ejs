@@ -33,14 +33,18 @@
             </div>
             <div class="buttons">
                 <div>
-                    <a href="/game">
+                    <form action="/game" method="post">
+                        <input name="backgroundname" type="hidden" readonly id="backgroundname" />
                         <button class="allbtn">Start</button>
-                    </a>
+                    </form>
                 </div>
                 <div>
                     <a>
                         <button class="allbtn" onclick="optionsPageOn();">More</button>
                     </a>
+                </div>
+                <div class="changebg">
+                    <button class="allbtn" onclick="changeBg();">Change bg color</button>
                 </div>
             </div>
         </div>

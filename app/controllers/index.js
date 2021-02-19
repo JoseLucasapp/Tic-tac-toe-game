@@ -3,5 +3,9 @@ module.exports.index_to_game = (application, req, res)=>{
 }
 
 module.exports.game = (application, req, res)=>{
-    res.render('game');
+    let background = req.body.backgroundname;
+    if(background === null || background === undefined || background === ''){
+        background = 'gray';
+    }
+    res.render('game',{background: "background-color:"+background+";" });
 }
