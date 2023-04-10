@@ -1,21 +1,49 @@
 <h1 align='center'>Tic Tac Toe</h1>
 <p>
-  <h3>About</h3>
-  <p>This is my representation of the famous tic tac toe game, built with javascript, html and css. <b>Responsive</b></p>
+
+  ## About
+  
+  <p>This is my representation of the famous tic tac toe game, built with javascript, html and css.</p>
+  <b>Responsive</b>
 </p>
 <p>
-  <h3>How to play</h3>
+
+  ## How to play
   
   ```shell
+  
   cd 'your favorite repository'
   git clone https://github.com/JoseLucasapp/Tic-tac-toe-game
   cd Tic-tac-toe-game
-  nodemon app or node app.js
+  npm start
+  
+  ```
+  
+  <h3>NPM</h3>
+
+  ```
+  
+  npm install
+  npm start
+  npm run dev
+
+  ```
+  
+  <h3>YARN</h3>
+
+  ```
+
+  yarn
+  yarn start
+  yarn dev
+
   ```
 </p>
 
 <p>
-  <h3>Used Tools</h3>
+
+  ## Used Tools
+  
   <table>
     <tr>
       <td>Express</td>
@@ -26,11 +54,15 @@
 </p>
 
 <p>
-  <h3>Example</h3>
+
+  ## Example
+  
   <img src="tictactoe1.png">
 </p>
 
 <p>
-  <h3>Author</h3>
+
+  ## Author
+  
   <a href="https://www.instagram.com/jlucasgf/?hl=pt-br" style="text-decoration: none;">José Lucas Gonçalves Freitas</a>
 </p>
